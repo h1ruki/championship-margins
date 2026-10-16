@@ -17,7 +17,7 @@ Notable changes to Championship Margins (formerly F1 Title Margins) are document
 
 ### Notes
 
-- The previous address (f1-title-margins.pages.dev) redirects to the new one.
+- The previous address has been retired and does not redirect.
 - No data, analytical or chart behaviour changes.
 
 ## v1.1.0 (16 October 2026)
