@@ -2,6 +2,28 @@
 
 Notable changes to F1 Title Margins are documented here.
 
+## v1.1.0 (16 October 2026)
+
+### Added
+
+- A `LICENSE` file releasing the application's original source code under the MIT License.
+- `public/THIRD-PARTY-NOTICES.txt`, the licence notices for the runtime dependencies shipped in
+  the built application.
+
+### Changed
+
+- The README's legal section is reordered and rewritten: unofficial project, F1DB-derived data
+  (CC BY 4.0), then application source code (MIT License).
+- The app footer now carries Formula 1's published disclaimer for unofficial websites, followed
+  by the data credit and a link to the MIT License.
+- Package metadata now reports version 1.1.0 and licence MIT (previously 0.0.0 with no licence
+  field).
+- `CLAUDE.md` gains a rule to maintain the third-party notices when runtime dependencies change.
+
+### Removed
+
+- The "all rights reserved" and "not open source" statements about the application code.
+
 ## v1.0.0 (8 October 2026)
 
 ### Added

@@ -8,6 +8,8 @@ Durable rules for coding agents working in this repository.
   `data/seasons.json` → React + strict TypeScript + ECharts + Vite (`src/`) → static hosting.
 - There is no runtime backend, API, database service, authentication or user account system. Do
   not add one.
+- When runtime dependencies are added, removed or upgraded, update
+  `public/THIRD-PARTY-NOTICES.txt` in the same change.
 
 ## Product scope
 
