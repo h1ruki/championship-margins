@@ -12,7 +12,7 @@ describe('methodology scoring copy', () => {
       expect(html).toContain(`<h4>${heading}</h4>`);
     }
     expect(text).toContain('does not reconstruct those championship totals race by race');
-    expect(text).toContain('F1 Title Margins always uses the counted totals, here 40 and 39');
+    expect(text).toContain('Championship Margins always uses the counted totals, here 40 and 39');
   });
 
   it('shows the six finishing-point scales in a two-column table', () => {

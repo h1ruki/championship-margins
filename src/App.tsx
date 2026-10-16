@@ -3,12 +3,15 @@ import seasonData from '../data/seasons.json';
 import release from '../data/f1db-release.json';
 import { Chart } from './Chart';
 import { Controls } from './Controls';
+import { Header } from './Header';
 import { Methodology } from './Methodology';
 import { headline, lessFrequentChampionYears } from './stats';
 import type { Metric, Orientation, Season } from './types';
 
 const seasons: Season[] = seasonData;
 const years = seasons.map((s) => s.year);
+const first = Math.min(...years); // header span: from the full dataset, so the range never changes it
+const last = Math.max(...years);
 const striped = lessFrequentChampionYears(seasons); // from the full dataset, so the range never changes it
 const WIDE = window.matchMedia('(min-width: 640px)');
 const OPTIONS: { metric: Metric; text: string }[] = [
@@ -37,12 +40,11 @@ export function App() {
   );
   const stat = headline(visible, metric); // follows the range and the active metric
   const what = metric === 'percent' ? 'percentage margin' : 'points gap';
-  const label = `Bar chart of the ${what} between the champion and runner-up in each F1 season from ${fromYear} to ${toYear}. Bars are coloured by the champion's team.`;
+  const label = `Bar chart of the ${what} between the champion and runner-up in each Formula 1 season from ${fromYear} to ${toYear}. Bars are coloured by the champion's team.`;
 
   return (
     <main>
-      <h1>F1 Title Margins</h1>
-      <p className="subtitle">How dominant was each F1 champion in their title-winning season?</p>
+      <Header first={first} last={last} />
       {stat && (
         <div className="stat">
           {stat.intro && <p className="stat-intro">{stat.intro}</p>}
@@ -84,7 +86,7 @@ export function App() {
         </p>
         <p>
           Data: F1DB {release.version} · recorded final standings · Code:{' '}
-          <a href="https://github.com/h1ruki/f1-title-margins/blob/main/LICENSE" target="_blank" rel="noreferrer">
+          <a href="https://github.com/h1ruki/championship-margins/blob/main/LICENSE" target="_blank" rel="noreferrer">
             MIT License
           </a>
         </p>

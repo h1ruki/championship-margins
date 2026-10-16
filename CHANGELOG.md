@@ -1,6 +1,24 @@
 # Changelog
 
-Notable changes to F1 Title Margins are documented here.
+Notable changes to Championship Margins (formerly F1 Title Margins) are documented here.
+
+## v1.2.0 (16 October 2026)
+
+### Changed
+
+- The product is renamed from F1 Title Margins to Championship Margins, so the name no longer
+  contains a Formula 1 mark. The application is now at https://championship-margins.pages.dev/
+  and the repository at github.com/h1ruki/championship-margins.
+- The page header has three lines: the name, "How dominant was each Formula 1™ champion?", and
+  "Drivers' titles · {first}–{last}" taken from the full dataset, not the selected range.
+- The page title and description are updated, and text-only Open Graph tags are added.
+- The README's unofficial-project statement now uses the new product name.
+- Package metadata now reports the name `championship-margins` and version 1.2.0.
+
+### Notes
+
+- The previous address (f1-title-margins.pages.dev) redirects to the new one.
+- No data, analytical or chart behaviour changes.
 
 ## v1.1.0 (16 October 2026)
 
