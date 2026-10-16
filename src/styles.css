@@ -150,6 +150,9 @@ select {
 .method td:first-child, .method th:first-child { white-space: nowrap; }
 
 footer { margin-top: 20px; color: var(--muted); font-size: 0.8rem; }
+footer a { color: var(--text); }
+footer p { margin: 0; }
+footer p + p { margin-top: 6px; }
 
 @media (max-width: 639px) {
   main { padding-top: 24px; }

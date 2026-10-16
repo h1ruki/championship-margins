@@ -76,7 +76,19 @@ export function App() {
       />
       <Chart seasons={visible} metric={metric} orientation={orientation} striped={striped} label={label} />
       <Methodology version={release.version} />
-      <footer>Data: F1DB {release.version} · recorded final standings</footer>
+      <footer>
+        <p>
+          This website is unofficial and is not associated in any way with the Formula 1 companies.
+          F1, FORMULA ONE, FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related
+          marks are trade marks of Formula One Licensing B.V.
+        </p>
+        <p>
+          Data: F1DB {release.version} · recorded final standings · Code:{' '}
+          <a href="https://github.com/h1ruki/f1-title-margins/blob/main/LICENSE" target="_blank" rel="noreferrer">
+            MIT License
+          </a>
+        </p>
+      </footer>
     </main>
   );
 }

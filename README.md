@@ -105,23 +105,20 @@ separately.
 
 ## Copyright and reuse
 
-### Application source code
+### Unofficial project
 
-© 2026 h1ruki. All rights reserved.
-
-The original F1 Title Margins application and source code are not open source. No permission is
-granted to reuse, modify, redistribute or commercially use them beyond the rights that
-[GitHub's Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)
-provide for public repositories, unless separately authorised by the owner.
+F1 Title Margins is unofficial and is not associated in any way with the Formula 1 companies, the
+FIA or any Formula 1 team. F1, FORMULA ONE, FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND
+PRIX and related marks are trade marks of Formula One Licensing B.V.
 
 ### F1DB-derived data
 
-The championship data in this project, including `data/seasons.json`, is adapted from
-[F1DB](https://github.com/f1db/f1db) v2026.16.0: it is reduced to each season's champion and
-runner-up, with the margins calculated by this project. F1DB is licensed under
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The reservation above does not apply to
-this F1DB-derived material and does not limit the rights CC BY 4.0 grants in it.
+Championship data is adapted from [F1DB](https://github.com/f1db/f1db) v2026.16.0, licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). This project reduces it to each
+season's champion and runner-up and calculates the margins. The adapted data
+(`data/seasons.json`) is also available under CC BY 4.0.
 
-## Unofficial project
+### Application source code
 
-F1 Title Margins is unofficial and is not affiliated with or endorsed by Formula 1 or the FIA.
+© 2026 h1ruki. Released under the [MIT License](LICENSE). The MIT License covers this project's
+original source code only. It does not apply to F1DB-derived data or third-party trade marks.
