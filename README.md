@@ -1,11 +1,11 @@
-# F1 Title Margins
+# Championship Margins
 
-**How dominant was each F1 champion in their title-winning season?**
+**How dominant was each Formula 1™ champion?**
 
-F1 Title Margins charts the gap between the champion and the runner-up in every completed
+Championship Margins charts the gap between the champion and the runner-up in every completed
 Formula 1 Drivers' Championship season from 1950 to 2025.
 
-**Live application: <https://f1-title-margins.pages.dev/>**
+**Live application: <https://championship-margins.pages.dev/>**
 
 ## What it shows
 
@@ -41,7 +41,7 @@ in.
   [`data/seasons.json`](data/seasons.json) byte for byte.
 
 For the scoring history behind the numbers, open **How this is measured** in the
-[app](https://f1-title-margins.pages.dev/).
+[app](https://championship-margins.pages.dev/).
 
 ## Technologies
 
@@ -94,7 +94,7 @@ exact margin) currently requires a pointer or touch.
 ## Feedback
 
 Please report calculation bugs, presentation bugs and other defects in this project through
-[GitHub Issues](https://github.com/h1ruki/f1-title-margins/issues). A suspected error in the
+[GitHub Issues](https://github.com/h1ruki/championship-margins/issues). A suspected error in the
 underlying source figures belongs upstream, with [F1DB](https://github.com/f1db/f1db/issues).
 
 ## Project status
@@ -107,9 +107,9 @@ separately.
 
 ### Unofficial project
 
-F1 Title Margins is unofficial and is not associated in any way with the Formula 1 companies, the
-FIA or any Formula 1 team. F1, FORMULA ONE, FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND
-PRIX and related marks are trade marks of Formula One Licensing B.V.
+Championship Margins is unofficial and is not associated in any way with the Formula 1 companies,
+the FIA or any Formula 1 team. F1, FORMULA ONE, FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP,
+GRAND PRIX and related marks are trade marks of Formula One Licensing B.V.
 
 ### F1DB-derived data
 

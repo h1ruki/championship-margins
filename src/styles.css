@@ -29,9 +29,11 @@ h1 {
   font-weight: 800;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  text-wrap: balance;
 }
 
-.subtitle { margin: 8px 0 20px; color: var(--muted); line-height: 1.4; }
+.subtitle { margin: 8px 0 0; color: var(--muted); line-height: 1.4; }
+.meta { margin: 4px 0 20px; color: var(--muted); font-size: 0.85rem; }
 
 /* Reserves the multi-season height so the controls never move when the range or metric changes. */
 .stat { min-height: 4.4rem; margin-bottom: 24px; font-size: 0.95rem; line-height: 1.5; }
@@ -156,7 +158,8 @@ footer p + p { margin-top: 6px; }
 
 @media (max-width: 639px) {
   main { padding-top: 24px; }
-  .subtitle { margin: 6px 0 14px; }
+  .subtitle { margin: 6px 0 0; }
+  .meta { margin: 2px 0 14px; }
   .stat { min-height: 8.5rem; margin-bottom: 14px; }
   .toggle { margin-bottom: 12px; }
   .selects { gap: 8px; }

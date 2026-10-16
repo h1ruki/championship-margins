@@ -1,4 +1,4 @@
-# F1 Title Margins
+# Championship Margins
 
 Durable rules for coding agents working in this repository.
 

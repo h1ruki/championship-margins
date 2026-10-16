@@ -1,4 +1,4 @@
-Third-party notices for F1 Title Margins
+Third-party notices for Championship Margins
 
 The built application bundles the runtime dependencies listed below. Licence texts are
 reproduced verbatim from the installed packages.

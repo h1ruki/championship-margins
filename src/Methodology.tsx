@@ -75,7 +75,7 @@ export function Methodology({ version }: { version: string }) {
         results. Under best-results rules, which changed several times, only a set number of each
         driver’s results counted and the rest were dropped. In 1964 Graham Hill’s results earned 41
         points and John Surtees’ 40, but after dropped scores the counted totals were Surtees 40,
-        Hill 39, so Surtees was champion. F1 Title Margins always uses the counted totals, here 40
+        Hill 39, so Surtees was champion. Championship Margins always uses the counted totals, here 40
         and 39.
       </p>
 
